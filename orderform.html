@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ORDER FORM</title>
+	<link rel="icon" type="img/png" href="https://www.kindpng.com/picc/m/384-3842320_cake-ideas-cupcake-png-transparent-png.png">
+	<style type="text/css">
+	  body,html{
+
+      height: 100%;
+
+    }
+
+    #webpage{
+
+      display: none;
+
+      width: 100%;
+
+    }
+
+    #loader{
+
+     width: 150px;
+
+     height: 150px;
+
+     border: solid 20px #FFE1EB ;
+
+     border-radius: 50%;
+
+     border-top: solid 20px lightgrey;
+
+     margin-left: auto;
+
+     margin-right: auto;
+
+     margin-top: 300px;
+
+     animation-name: load;
+
+     animation-duration: 3s;
+
+     animation-iteration-count: infinite;
+
+     animation-timing-function: linear;
+
+    }
+
+ 
+
+    @keyframes load{
+
+      0% {transform: rotate(0deg);}
+
+      100%{transform: rotate(360deg);}
+
+    }
+
+    .bg-text{
+
+      position:absolute;
+
+      left: 25%;
+
+      text-align: center;
+
+      font-size: 60px;
+
+    }
+
+    ul{
+
+      list-style-type: none;
+
+      background-color: #F9DAFA;
+
+      padding: 20px;
+
+ 
+
+    }
+
+    a{
+
+      text-decoration: none;
+
+      padding: 20px;
+
+      color: #CFFFFD;
+
+    }
+
+    li{
+
+      display: inline;
+
+    }
+
+    a:hover{
+
+      background-color: #3A0044;
+
+    }
+
+    .right{
+
+      float: right;
+
+    }
+
+    .column{
+
+      width: 50%;
+
+      float: left;
+
+    }
+</style>
+</head>
+<body>
+	<h1 style="color: #D786D8; text-shadow: 5px 3px 2px black; text-align: center;font-family: optima; font-size: 100px; " ><i>Fill The Form , if you would like our cupcakes</i></h1>
+<ul>
+
+  <li class="right"><a href="order.html" id="s">ORDER</a></li>
+
+  <li class="right"><a href="Contactus.html"id="s">CONTACT US</a></li>
+
+  <li class="right"><a href="index.html"id="s">HOME PAGE</a></li>
+   
+  <li class="right"><a href="orderform.html"id="s">ORDER FORM</a></li>
+
+</ul>
+
+<form>
+	<label>Your email</label>
+	<br>
+	<br>
+
+	<input type="email" name="">
+	<br>
+	<br>
+
+	<label for="FullName">Write your full name</label>
+	<br>
+	<br>
+
+	<input type="text" name="FullName">
+	<br>
+	<br>
+
+	<label>When do you want your delivery</label>
+	<br>
+	<br>
+
+	<input type="date" name="date" id="date">
+	<br>
+	<br>
+
+	<textarea style="width: 300px; height: 100px;" placeholder="Your order , in full description"></textarea>
+    <button style="color: lightpink">Submit</button>
+    <br>
+    <br>
+</form>
+
+</body>
+</html>
